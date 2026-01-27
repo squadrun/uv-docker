@@ -1,10 +1,9 @@
-# poetry
+# UV
 
-note: uses python3.11
+Note: Uses Python 3.11
 
-
-### how to use:
+## How to Use
 
 ```bash
-docker run --rm -v $(pwd):/app -v /tmp/cache:/root/.cache squadstack/poetry:latest python3 -m poetry build
+docker run --rm -v $(pwd):/app -v /tmp/cache:/root/.cache squadstack/uv:latest uv build
 ```
