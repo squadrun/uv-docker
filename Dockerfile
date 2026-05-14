@@ -1,6 +1,6 @@
 FROM public.ecr.aws/lambda/python:3.14
 
-RUN yum install -y gcc && yum clean all
+RUN dnf install -y gcc && dnf clean all
 
 RUN pip3 --no-cache-dir install uv
 
