@@ -32,4 +32,5 @@ jobs:
           push: true
           tags: |
             squadstack/uv:al
+            squadstack/uv:py314
             squadstack/uv:latest
